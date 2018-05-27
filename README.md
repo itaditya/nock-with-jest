@@ -2,10 +2,10 @@
 
 ## Explainer
 
-1. index.js is a module which sends requests to the server and this module has to be tested.
-1. server.js is used to create a server which responds with a delay of 1600 ms.
-1. test/withoutnock.test.js contains test which when run lets the module send actual requests to server.
-1. test/withnock.test.js contains test which when run intercepts the request made by the module.
+1. **index.js** is a module which sends requests to the server and this module has to be tested.
+1. **server.js** is used to create a server which responds with a delay of 1600 ms.
+1. **test/withoutnock.test.js** contains test which when run, lets the module send actual requests to server.
+1. **test/withnock.test.js** contains test which when run, intercepts the request made by the module.
 
 ## How To Run
 
