@@ -1,0 +1,33 @@
+{
+  "name": "nock-with-jest",
+  "version": "1.0.0",
+  "description": "A simple demo to showoff Nock usage with Jest",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "node server.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.0.1",
+    "nock": "^9.2.6"
+  },
+  "dependencies": {
+    "superagent": "^3.8.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itaditya/nock-with-jest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/itaditya/nock-with-jest/issues"
+  },
+  "homepage": "https://github.com/itaditya/nock-with-jest#readme"
+}
